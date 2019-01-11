@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+  frontend: 
+    image: initcron/frontend:latest 
+    ports: 
+      - 8079:8079 
+
+
